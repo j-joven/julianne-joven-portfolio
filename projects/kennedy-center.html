@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lollapalooza Rebrand | Julianne Joven</title>
+  <link rel="stylesheet" href="../style.min.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+  <nav class="site-nav" aria-label="Primary navigation">
+
+    <button class="nav-toggle" id="nav-toggle"
+      type="button"
+      aria-controls="nav-menu"
+      aria-expanded="false">
+      <span class="sr-only">Open menu</span>
+      ☰
+    </button>
+
+    <a class="nav-logo" href="../index.html" aria-label="Go to Home">
+      <img src="../assets/logo.svg" alt="Julianne Joven logo" width="120" height="40" />
+    </a>
+
+    <div class="nav-group" id="nav-menu">
+      <a class="nav-link" href="../works.html">Works</a>
+      <a class="nav-link" href="../about.html">About</a>
+    </div>
+
+  </nav>
+  </header>
+
+  <main id="main">
+    <section class="page detail-page">
+      <header class="page-header">
+        <h1>Toy Variety Pack Package Design</h1>
+        <p>Designed a seasonal event pamphlet for the Kennedy Center’s 2024–25 Fall/Winter program in an Editorial Design course, applying typographic hierarchy, layout systems, and visual consistency to produce a polished, client-ready print collateral piece.</p>
+      </header>
+
+      <figure class="project-preview">
+        <img
+          src="../assets/project-3-preview.png"
+          alt="Kennedy Center Events Pamphlet preview"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </figure>
+
+
+      <section class="detail-meta">
+        <ul class="meta">
+          <li><strong>Context:</strong> Editorial Design (Class Project)</li>
+          <li><strong>Timeframe:</strong> 1 Month (Sept - Oct 2024)</li>
+        </ul>
+      </section>
+
+      <section class="detail-content">
+        <h2>Approach</h2>
+        <p>
+         My approach was to create a clear, inviting layout that organized the Kennedy Center’s fall/winter programming into something accessible and visually grounded—highlighting the energy of each event while keeping the information effortless to navigate.
+        </p>
+
+
+        <h3>Front Cover</h3>
+        <figure class="print-figure">
+        <picture>
+                <source srcset="../assets/project-3-kccover.webp" type="image/webp">
+                <img
+                  src="../assets/project-3-kccover.webp"
+                  alt="Visual Identity Drafts"
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="675"
+                >
+              </picture>
+        </figure>
+
+        <h3>Inside Design</h3>
+        <figure class="print-figure">
+        <picture>
+                <source srcset="../assets/project-3-kcpamphlet-inside.webp" type="image/webp">
+                <img
+                  src="../assets/project-3-kcpamphlet-inside.webp"
+                  alt="Visual Identity Drafts"
+                  loading="lazy"
+                  decoding="async"
+                  width="1200"
+                  height="675"
+                >
+              </picture>
+        </figure>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Julianne Joven</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="../script.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Selected projects and case studies." />
+  <title>Works | Julianne Joven</title>
+  <link rel="stylesheet" href="style.min.css" />
+</head>
+
+<body>
+  <header class="site-header">
+  <nav class="site-nav" aria-label="Primary navigation">
+
+    <button class="nav-toggle" id="nav-toggle"
+      type="button"
+      aria-controls="nav-menu"
+      aria-expanded="false">
+      <span class="sr-only">Open menu</span>
+      ☰
+    </button>
+
+    <a class="nav-logo" href="index.html" aria-label="Go to Home">
+      <img src="assets/logo.svg" alt="Julianne Joven logo" width="120" height="40" />
+    </a>
+
+    <div class="nav-group" id="nav-menu">
+      <a class="nav-link" href="works.html">Works</a>
+      <a class="nav-link" href="about.html">About</a>
+    </div>
+
+  </nav>
+  </header>
+
+  <main id="main">
+    <section class="page" aria-labelledby="works-title">
+  <header class="page-header">
+    <h1 id="works-title">Works</h1>
+  </header>
+
+  <div class="project-grid" role="list">
+
+    <article class="project-card" role="listitem">
+      <a class="project-link" href="projects/lollapalooza.html">
+        <img src="assets/project-1-preview.jpg" alt="Lollapalooza Rebrand preview" />
+        <h2>Lollapalooza Rebrand</h2>
+        <p>Developed a comprehensive rebrand for Lollapalooza in a Brand Identity Design course, including a redesigned logo, stationery system, mockups, and a detailed branding guidelines booklet to establish a cohesive visual identity across print and digital touchpoints.</p>
+        <p><strong>Skills:</strong> Branding, Logo Design</p>
+      </a>
+    </article>
+
+    <article class="project-card" role="listitem">
+      <a class="project-link" href="projects/toy-packaging.html">
+        <img src="assets/project-2-preview.jpg" alt="Toy packaging preview" />
+        <h2>Toy Variety Pack Package Design</h2>
+        <p>Designed packaging for a collectible toy set in a Package Design course featuring original felt character keychains, creating the Mimoka & Friends brand identity and a colorful, playful box inspired by contemporary blind-box collectibles with a clear display window.</p>
+        <p><strong>Skills:</strong> Packaging, Illustration</p>
+      </a>
+    </article>
+
+    <article class="project-card" role="listitem">
+      <a class="project-link" href="projects/kennedy-center.html">
+        <img src="assets/project-3-preview.png" alt="Kennedy Center Events Pamphlet preview" />
+        <h2>Kennedy Center Events Calendar</h2>
+        <p>Designed a seasonal event pamphlet for the Kennedy Center’s 2024–25 Fall/Winter program in an Editorial Design course, applying typographic hierarchy, layout systems, and visual consistency to produce a polished, client-ready print collateral piece.</p>
+        <p><strong>Skills:</strong> Editorial Design</p>
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<section class="section" aria-labelledby="connect-title">
+        <h2 id="connect-title">Connect</h2>
+        <ul class="button-list">
+          <li><a class="button-link" href="mailto:julianne.joven@gmail.com">Email</a></li>
+          <li><a class="button-link" href="https://www.linkedin.com/in/julianne-j-923184261" rel="noopener">LinkedIn</a></li>
+          <li><a class="button-link" href="https://www.instagram.com/jjcreates" rel="noopener">Instagram</a></li>
+        </ul>
+      </section>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Julianne Joven. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Julianne Joven." />
+  <title>About | Julianne Joven</title>
+  <link rel="stylesheet" href="style.min.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+     <nav class="site-nav" aria-label="Primary navigation">
+
+    <button class="nav-toggle" id="nav-toggle"
+      type="button"
+      aria-controls="nav-menu"
+      aria-expanded="false">
+      <span class="sr-only">Open menu</span>
+      ☰
+    </button>
+
+    <a class="nav-logo" href="index.html" aria-label="Go to Home">
+      <img src="assets/logo.svg" alt="Julianne Joven logo" width="120" height="40" />
+    </a>
+
+    <div class="nav-group" id="nav-menu">
+      <a class="nav-link" href="works.html">Works</a>
+      <a class="nav-link" href="about.html">About</a>
+    </div>
+
+  </nav>
+  </header>
+
+  <main id="main">
+    <section class="page" aria-labelledby="about-title">
+      <header class="page-header">
+        <h1 id="about-title">About</h1>
+        <p>My name is Julianne Joven and I am a graphic designer based in Virginia.</p>
+      </header>
+
+      <article class="about-layout" aria-label="Biography">
+        <img class="bio-photo" src="assets/bio.jpg" alt="Portrait of Julianne Joven" loading="lazy" />
+
+        <div class="bio-text">
+          <p>Currently, I am pursuing a BFA in graphic design at George Mason University. 
+            Throughout my time studying at George Mason, I have been able to acquire and 
+            cultivate skills within Adobe InDesign, Illustrator, and Photoshop. 
+            Additionally, I have created promotional graphics for the Filipino Cultural 
+            Association (FCA) and KDC Mythic, increasing visibility for both college 
+            organizations as well as support and turnout for their events and projects. 
+            As I continue to grow as a designer, I aim to develop a more versatile skill 
+            set and collaborate with more clients and experienced designers to further 
+            establish my brand and expertise.</p>
+
+          <p>I did not start out as a digital artist, though—in fact, my work was exclusively 
+            traditional growing up, as mediums such as oil pastel, graphite, and especially 
+            colored pencils were more accessible to me at the time. But as time went on, and 
+            the more I was exposed to grunge, 2000s design, and especially mixed media design, 
+            the more my work shifted into the digital space. What remains the same, however, is 
+            the high expectations I hold upon myself and my work, driving my passion to pursue 
+            excellence and ensure quality designs that my clients and myself are proud to 
+            showcase. My creative process invests meticulous care and effort into each project, 
+            which I hope to highlight in my designs as well.</p>
+
+          <p>Outside of design, I enjoy creating and expressing myself through other forms of 
+            art—specifically dance, where I’m either choreographing for performances or 
+            taking part in some myself. Though not as frequently, I also enjoy capturing the 
+            little, easily missable moments that I want to immortalize through photography, and 
+            aim to further develop my skills in this field to use in my practice.</p>
+        </div>
+      </article>
+
+      <section class="section" aria-labelledby="connect-title">
+        <h2 id="connect-title">Connect</h2>
+        <ul class="button-list">
+          <li><a class="button-link" href="mailto:julianne.joven@gmail.com">Email</a></li>
+          <li><a class="button-link" href="https://www.linkedin.com/in/julianne-j-923184261" rel="noopener">LinkedIn</a></li>
+          <li><a class="button-link" href="https://www.instagram.com/jjcreates" rel="noopener">Instagram</a></li>
+        </ul>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Julianne Joven. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
